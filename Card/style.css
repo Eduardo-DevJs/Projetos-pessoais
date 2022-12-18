@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main{
+  max-width: 350px;
+  background-color:hsl(224, 80%, 100%);
+  border-radius: 25px 20px 20px 20px;
+  height: 500px;
+}
+
+.main-image img{
+  width: 100%;
+  border-radius: 25px 20px 0px 0;
+}
+
+.main-texts{
+  margin-inline:  auto;
+  margin-top: 20px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.title h2{
+  font-weight: bolder;
+}
+
+.subtitle p{
+  margin-top: 10px;
+  color: hsl(224, 23%, 55%);
+  font-weight: bolder;
+}
+
+.price{
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin-inline: auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link a{
+  color:  hsl(245, 75%, 52%);
+  font-weight: bolder;
+}
+
+.btn{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: bolder;
+}
+
+button{
+  margin-bottom: 15px;
+  width: 85%;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color:  hsl(245, 75%, 52%);
+}

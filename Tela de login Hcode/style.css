@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 60%;
+  /* justify-content: space-around; */
+}
+
+#msg{
+  padding: 15px;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  background: url(main_destaque_Fred_Cardoso.jpg);
+  align-items: center;
+  background-blend-mode: darken;
+  background-color: rgba(0,0,0,0.6);
+  background-size: cover;
+  color: rgb(255, 85, 0);
+  height: 100%;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  border-radius: 0 20px 20px 0;
+  align-items: center;
+  background-color: rgb(59, 59, 59);
+  gap: 35px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input{
+  outline: none;
+  padding: 8px;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(227, 90, 21);
+  font-size: 18px;
+}
+
+input::placeholder{
+  color: white;
+}
+
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(227, 90, 21);
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.icons{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+i{
+  font-size: 30px;
+}
+
+a:nth-child(1){
+  text-decoration: none;
+  color: #fff;
+}
+a:nth-child(2){
+  text-decoration: none;
+  color: #fff;
+}
+a:nth-child(3){
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,96 @@
+@media (max-width: 768px){
+  .logo img{
+    width: 90px;
+    margin-top: 40px;
+  }
+
+  .header-links{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .header-links a {
+    width: 100%;
+    text-align: center;
+  }
+
+  #quick{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image img{
+    width: 350px;
+  }
+
+  .quick-texts{
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .text-1 p, .text-2 p, .text-3 p{
+    max-width: 95%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .access-text p{
+    font-size: 17px;
+  }
+
+  .access-img img{
+    width: 400px;
+  }
+
+  .work-text{
+    margin-top: 70px;
+  }
+
+  .work-text p{
+    font-size: 1.2em;
+  }
+
+  .cards{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cards-brands{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .download-text{
+    width: 95%;
+  }
+
+  .donwload-text p{
+    font-size: 1px;
+  }
+
+  .download-links{
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .download-links a {
+    width: 95%;
+    text-align: center;
+  }
+
+  .footer{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  ul{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+}

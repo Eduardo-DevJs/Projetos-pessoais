@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(169, 169, 169, 0.3) url(../img/background.jpg);
+  background-size: cover;
+  background-blend-mode: difference;
+  height: 60vh;
+}
+
+.container {
+  display: flex;
+  max-height: 600px;
+  padding: 30px;
+  gap: 25px;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  line-height: 53px;
+  font-size: 35px;
+  color: white;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+}
+
+.btn button {
+  border: 0.5px solid white;
+  background-color: #2E2F2C;
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn button:hover {
+  color: #2E2F2C;
+  background-color: white;
+}
+
+/* section 1 */
+
+.section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  height: 25vh;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #2E2F2C;
+}
+
+.section_container {
+  width: 50%;
+}
+
+.blocos {
+  display: flex;
+  gap: 20px;
+}
+
+.bloco {
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+  color: #2E2F2C;
+}
+
+/* section 2 */
+
+.section_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  background-color: #2E2F2C;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  max-width: 300px;
+  background-color: white;
+}
+
+.card-photo img {
+  width: 100%;
+}
+
+.card-title {
+  color: #2E2F2C;
+}
+
+.card-paragrafo {
+  padding: 30px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+/* section 4 */
+
+.section_4{
+  height: 30vh;
+  display: flex;
+  background-color: red;
+}
+
+.contact{
+  background-color: #2690D4;
+  color: white;
+  display: flex;
+  width: 50%;
+  text-align: center;
+  gap: 25px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about{
+  background-color: #333333;
+  display: flex;
+  width: 50%;
+  color: white;
+  gap: 25px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: black;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #2690D4;
+  font-weight: lighter;
+}
