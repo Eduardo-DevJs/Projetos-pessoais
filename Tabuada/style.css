@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(109, 109, 234);
+}
+
+.container{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+label{
+  font-size: 18px;
+}
+
+button,input{
+  padding: 6px;
+}
+
+select{
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+main{
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+}
