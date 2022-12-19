@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-1{
+  background-color: black;
+}
+
+#section-2{
+  background-color: rgb(57, 57, 57);
+}
+
+#section-3{
+  background-color: rgb(69, 52, 52);
+}
+
+#section-4{
+  background-color: rgb(130, 76, 76);
+}
+
+.container{
+  width: 90%;
+}
+
+h2{
+  font-size: 2.5em;
+}
+
+p{
+  font-size: 1.5em;
+  line-height: 35px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(144px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
