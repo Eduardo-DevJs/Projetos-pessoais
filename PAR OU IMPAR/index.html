@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Verificador PAR ou ÍMPAR</h1>
+    <div class="container">
+        <input type="number" id="valor" placeholder="Digite um valor">
+        <button id="verificar" type="button">Verificar</button>
+        <p id="resposta"></p>
+    </div>
+
+    <script>
+        let verificar = document.getElementById("verificar")
+        let resposta = document.getElementById("resposta")
+        let valor = document.getElementById("valor")
+
+        verificar.addEventListener("click", () => {
+
+            if (valor.value === '') {
+                alert('Prencha o campo')
+            } else {
+                if (valor.value % 2 === 0) {
+                    resposta.innerHTML = `O valor ${valor.value} é PAR`
+                } else {
+                    resposta.innerHTML = `O valor ${valor.value} é ÍMPAR`
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>
