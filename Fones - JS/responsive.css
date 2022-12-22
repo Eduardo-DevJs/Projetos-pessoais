@@ -1,0 +1,26 @@
+@media(max-width: 768px) {
+  .container {
+    max-height: 90vh;
+  }
+
+  nav {
+    display: none;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .produtos {
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  .textos {
+    display: none;
+  }
+}
