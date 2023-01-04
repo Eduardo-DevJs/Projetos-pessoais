@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+:root{
+  --Violet: rgb(103, 74, 176);
+  --Soft-Magenta: rgb(232, 130, 232);
+}
+
+body{
+  height: 100vh;
+  background: url(images/bg-desktop.svg), linear-gradient(to left,rgb(103,74,176), rgb(232,130,232));
+  background-size: contain;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.section-home{
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textos{
+  max-width: 600px;
+}
+
+.textos h1{
+  font-size: 3.2em;
+  line-height: 60px;
+  font-weight: lighter;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.textos p{
+  font-size: 1.5em;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-bottom: 40px;
+  color: rgb(226, 226, 226);
+}
+
+.textos a {
+  background-color: #fff;
+  color: rgb(179, 84, 84);
+  padding: 15px 60px;
+  border-radius: 50px;
+  box-shadow: 13px 10px 47px -25px rgba(0,0,0,0.75);
+  transition: 0.2s all;
+}
+
+.textos a:hover {
+  background-color: var(--Soft-Magenta);
+  color: #fff;
+}
+
+.social{
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  font-size: 2em;
+}
+
+.social a {
+  color: #fff;
+}
