@@ -1,0 +1,119 @@
+body{
+  background: rgba(0,0,0,0.8);
+  background-image: url(../img/homem\ formiga.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+.header{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  font-size: 1.5em;
+}
+
+nav ul a {
+  color: #f2f2f2;
+  transition: 0.2s;
+}
+
+nav ul li:nth-child(2){
+  background-color: #E62721;
+  padding: 5px 15px;
+}
+
+/* section */
+
+section{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.descricao{
+  max-width: 700px;
+}
+
+.descricao h1{
+  font-size: 3em;
+  color: #f2f2f2;
+}
+
+span{
+  color: #E62721;
+}
+
+h3{
+  text-indent: 20px;
+  color: aqua;
+  letter-spacing: 8px;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #f2f2f2;
+  font-size: 1.6em;
+  margin-bottom: 40px;
+}
+
+.descricao a {
+  color: #f2f2f2;
+  background-color: #E62721;
+  padding: 1.5em;
+  border-radius: 15px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.5em;
+}
+
+.icons a {
+  color: #f2f2f2;
+  padding: 10px;transition: 0.3s all;
+  font-size: 1.5em;
+}
+
+.icons a:nth-child(1):hover{
+  color: rgb(63, 63, 218);
+}
+.icons a:nth-child(2):hover{
+  color: rgb(210, 59, 197);
+}
+.icons a:nth-child(3):hover{
+  color: rgb(212, 21, 21);
+}
+.icons a:nth-child(4):hover{
+  color: rgb(44, 87, 228);
+}
+
+/* footer */
+
+footer p{
+  text-align: center;
+  font-size: 15px;
+  
+  font-variant: small-caps;
+}
