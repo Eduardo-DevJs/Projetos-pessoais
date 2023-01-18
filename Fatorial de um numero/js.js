@@ -18,6 +18,9 @@ function fatorial(){
   }else{
     fatorDeUmNumero()
   }
+
+  numeroFator.focus()
+  numeroFator.value = ''
 }
 
 // eventos
