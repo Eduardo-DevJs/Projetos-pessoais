@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    button {
+      padding: 5px 20px;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="corAleatoria()" type="button">Mudar cor de fundo</button>
+  
+  <script>
+    function corAleatoria(){
+      const corX = Math.floor(Math.random() * 256)
+      const corY = Math.floor(Math.random() * 256)
+      const corZ = Math.floor(Math.random() * 256)
+      const backgroundColor = "rgb(" + corX + "," + corY + "," + corZ + ")"
+
+      document.body.style.background = backgroundColor
+    }
+  </script>
+</body>
+</html>

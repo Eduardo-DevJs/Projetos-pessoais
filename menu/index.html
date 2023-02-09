@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="logo"><h2>Logo</h2></div>
+
+        <div class="bars js-menu">
+          <img src="bars-solid.svg" alt="">
+        </div>
+
+        <nav>
+          <ul class="menu-header">
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    const menuJs = document.querySelector(".js-menu img")
+    const nav = document.querySelector("nav")
+
+    function abrirMenu(){
+      menuJs.setAttribute('src', 'xmark-solid.svg')
+      nav.classList.toggle('ativo')
+    }
+
+    menuJs.addEventListener('click', abrirMenu)
+  </script>
+
+  <script src="https://kit.fontawesome.com/d3300bf99f.js" crossorigin="anonymous"></script>
+</body>
+</html>
