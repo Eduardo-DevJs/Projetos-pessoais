@@ -1,0 +1,37 @@
+
+.article {
+  padding: 60px;
+  background: var(--Very-Dark-Violet);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.article h2 {
+  color: #ffff;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.article a {
+  text-transform: uppercase;
+  border: 1px solid #ffff;
+  color: #ffff;
+  padding: 10px 25px;
+  display: inline-block;
+}
+
+@media (max-width: 800px){
+  .article {
+    flex-direction: column;
+  }
+
+  .article h2 {
+    color: #ffff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+}
